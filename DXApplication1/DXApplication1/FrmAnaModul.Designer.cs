@@ -34,7 +34,7 @@
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.btnogretmen = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnVeliler = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
@@ -62,7 +62,7 @@
             this.barButtonItem1,
             this.btnogretmen,
             this.barButtonItem3,
-            this.barButtonItem4,
+            this.btnVeliler,
             this.barButtonItem5,
             this.barButtonItem6,
             this.barButtonItem7,
@@ -115,15 +115,16 @@
             this.barButtonItem3.Name = "barButtonItem3";
             this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
-            // barButtonItem4
+            // btnVeliler
             // 
-            this.barButtonItem4.Caption = "Veliler";
-            this.barButtonItem4.Id = 4;
-            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
-            this.barButtonItem4.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.barButtonItem4.ItemAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem4.Name = "barButtonItem4";
+            this.btnVeliler.Caption = "Veliler";
+            this.btnVeliler.Id = 4;
+            this.btnVeliler.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.btnVeliler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.btnVeliler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.btnVeliler.ItemAppearance.Normal.Options.UseFont = true;
+            this.btnVeliler.Name = "btnVeliler";
+            this.btnVeliler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnVeliler_ItemClick);
             // 
             // barButtonItem5
             // 
@@ -247,7 +248,7 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnogretmen);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem4);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnVeliler);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem5);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem6);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem7);
@@ -289,7 +290,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem btnogretmen;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem btnVeliler;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;

@@ -16,5 +16,17 @@ namespace DXApplication1
         {
             InitializeComponent();
         }
+
+        public string ad, soyad, tc, cinsiyet, dogtarihi, uzanti;
+
+        private void FrmNufusCuzdani_Load(object sender, EventArgs e)
+        {
+            lblad.Text = ad;
+            lblsoyad.Text = soyad;
+            lbltc.Text = tc;
+            lblcinsiyet.Text = cinsiyet;
+            lbldogtar.Text = dogtarihi;
+            pictureEdit1.Image = Image.FromFile(uzanti);
+        }
     }
 }

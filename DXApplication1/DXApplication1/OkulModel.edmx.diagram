@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d3c1fb359e764144910d2ae3173a9a6b" Name="Diagram1">
+        <EntityTypeShape EntityType="dbo.okulotoModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_BRANSLAR" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_ILCELER" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_ILLER" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_OGRENCILER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_OGRETMENLER" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_VELILER" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="dbo.okulotoModel.FK_TBL_OGRENCILER_TBL_VELILER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

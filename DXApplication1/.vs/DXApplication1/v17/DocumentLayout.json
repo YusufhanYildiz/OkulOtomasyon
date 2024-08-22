@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\dxapplication1\\frmogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\yedek\\yedek\\ders\\ders\\okuloto\\dxapplication1\\dxapplication1\\frmogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmveliler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmveliler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 339,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmOgrenciler.cs [Design]",
-              "DocumentMoniker": "C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\DXApplication1\\FrmOgrenciler.cs",
-              "RelativeDocumentMoniker": "DXApplication1\\FrmOgrenciler.cs",
-              "ToolTip": "C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\DXApplication1\\FrmOgrenciler.cs [Design]",
-              "RelativeToolTip": "DXApplication1\\FrmOgrenciler.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FrmAyarlar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAyarlar.cs",
+              "RelativeDocumentMoniker": "DXApplication1\\FrmAyarlar.cs",
+              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAyarlar.cs [Design]",
+              "RelativeToolTip": "DXApplication1\\FrmAyarlar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:55:21.426Z",
+              "WhenOpened": "2024-08-16T14:13:11.758Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmOgrenciler.cs",
-              "DocumentMoniker": "C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\DXApplication1\\FrmOgrenciler.cs",
-              "RelativeDocumentMoniker": "DXApplication1\\FrmOgrenciler.cs",
-              "ToolTip": "C:\\yedek\\yedek\\ders\\ders\\okuloto\\DXApplication1\\DXApplication1\\FrmOgrenciler.cs",
-              "RelativeToolTip": "DXApplication1\\FrmOgrenciler.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAqwL4AAACIAAAA",
+              "DocumentIndex": 1,
+              "Title": "FrmVeliler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmVeliler.cs",
+              "RelativeDocumentMoniker": "DXApplication1\\FrmVeliler.cs",
+              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmVeliler.cs [Design]",
+              "RelativeToolTip": "DXApplication1\\FrmVeliler.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T17:40:50.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T17:10:56.852Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

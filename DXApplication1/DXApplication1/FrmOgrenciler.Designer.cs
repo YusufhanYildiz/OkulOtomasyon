@@ -204,6 +204,7 @@
             this.lookUpEdit1.Name = "lookUpEdit1";
             this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit1.Properties.NullText = "Ebeveyn Seçiniz";
             this.lookUpEdit1.Size = new System.Drawing.Size(141, 20);
             this.lookUpEdit1.TabIndex = 32;
             // 
@@ -281,9 +282,10 @@
             // 
             // pcredit
             // 
-            this.pcredit.Location = new System.Drawing.Point(132, 5);
+            this.pcredit.Location = new System.Drawing.Point(129, 22);
             this.pcredit.Name = "pcredit";
             this.pcredit.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pcredit.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pcredit.Size = new System.Drawing.Size(113, 144);
             this.pcredit.TabIndex = 23;
             // 
@@ -323,6 +325,7 @@
             // 
             // txtid
             // 
+            this.txtid.Enabled = false;
             this.txtid.Location = new System.Drawing.Point(119, 182);
             this.txtid.Name = "txtid";
             this.txtid.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
@@ -459,6 +462,7 @@
             this.btntemizle.Size = new System.Drawing.Size(150, 34);
             this.btntemizle.TabIndex = 19;
             this.btntemizle.Text = "Temizle";
+            this.btntemizle.Click += new System.EventHandler(this.btntemizle_Click);
             // 
             // btnguncelle
             // 
@@ -468,6 +472,7 @@
             this.btnguncelle.Size = new System.Drawing.Size(150, 34);
             this.btnguncelle.TabIndex = 18;
             this.btnguncelle.Text = "Güncelle";
+            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
             // 
             // btnsil
             // 
@@ -477,6 +482,7 @@
             this.btnsil.Size = new System.Drawing.Size(150, 34);
             this.btnsil.TabIndex = 17;
             this.btnsil.Text = "Sil";
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
             // 
             // btnkaydet
             // 
@@ -496,6 +502,7 @@
             this.btnresim.Size = new System.Drawing.Size(150, 34);
             this.btnresim.TabIndex = 15;
             this.btnresim.Text = "Resim Seç";
+            this.btnresim.Click += new System.EventHandler(this.btnresim_Click);
             // 
             // rtxtadres
             // 
@@ -553,6 +560,7 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowObjectChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowObjectChangedEventHandler(this.gridView1_FocusedRowObjectChanged_1);
+            this.gridView1.DoubleClick += new System.EventHandler(this.gridView1_DoubleClick);
             // 
             // xtraTabPage4
             // 
