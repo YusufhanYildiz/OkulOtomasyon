@@ -10,22 +10,14 @@
 namespace DXApplication1
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class TBL_OGRETMENLER
+    public partial class AyarlarOgretmenler_Result
     {
-        public int OGRTID { get; set; }
-        public string OGRTAD { get; set; }
-        public string OGRTSOYAD { get; set; }
-        public string OGRTTC { get; set; }
-        public string OGRTTEL { get; set; }
-        public string OGRTMAIL { get; set; }
-        public string OGRTIL { get; set; }
-        public string OGRTILCE { get; set; }
-        public string OGRTADRES { get; set; }
+        public int AYARLARID { get; set; }
+        public string OGRTADSOYAD { get; set; }
         public string OGRTBRANS { get; set; }
+        public string OGRTTC { get; set; }
+        public string OGRTSIFRE { get; set; }
         public string OGRTFOTO { get; set; }
-    
-        public virtual TBL_AYARLAR TBL_AYARLAR { get; set; }
     }
 }

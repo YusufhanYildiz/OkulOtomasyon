@@ -13,6 +13,10 @@
         <EntityTypeShape EntityType="dbo.okulotoModel.TBL_OGRETMENLER" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
         <EntityTypeShape EntityType="dbo.okulotoModel.TBL_VELILER" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
         <AssociationConnector Association="dbo.okulotoModel.FK_TBL_OGRENCILER_TBL_VELILER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_AYARLAR" Width="1.5" PointX="7" PointY="7.625" />
+        <EntityTypeShape EntityType="dbo.okulotoModel.TBL_OGRAYARLAR" Width="1.5" PointX="5.25" PointY="11.125" />
+        <AssociationConnector Association="dbo.okulotoModel.FK_TBL_AYARLAR_TBL_OGRETMENLER" />
+        <AssociationConnector Association="dbo.okulotoModel.FK_TBL_OGRAYARLAR_TBL_OGRENCILER1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

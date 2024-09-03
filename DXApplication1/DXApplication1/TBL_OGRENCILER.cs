@@ -29,5 +29,6 @@ namespace DXApplication1
         public string OGRFOTO { get; set; }
     
         public virtual TBL_VELILER TBL_VELILER { get; set; }
+        public virtual TBL_OGRAYARLAR TBL_OGRAYARLAR { get; set; }
     }
 }

@@ -85,5 +85,45 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TBL_AYARLAR">
+      <EntityTypeMapping TypeName="dbo.okulotoModel.TBL_AYARLAR">
+        <MappingFragment StoreEntitySet="TBL_AYARLAR">
+          <ScalarProperty Name="OGRTSIFRE" ColumnName="OGRTSIFRE" />
+          <ScalarProperty Name="AYARLARID" ColumnName="AYARLARID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_OGRAYARLAR">
+      <EntityTypeMapping TypeName="dbo.okulotoModel.TBL_OGRAYARLAR">
+        <MappingFragment StoreEntitySet="TBL_OGRAYARLAR">
+          <ScalarProperty Name="OGRSIFRE" ColumnName="OGRSIFRE" />
+          <ScalarProperty Name="AYARLAROGRID" ColumnName="AYARLAROGRID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AyarlarOgrenciler" FunctionName="dbo.okulotoModel.Store.AyarlarOgrenciler">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dbo.okulotoModel.AyarlarOgrenciler_Result">
+          <ScalarProperty Name="AYARLAROGRID" ColumnName="AYARLAROGRID" />
+          <ScalarProperty Name="OGRADSOYAD" ColumnName="OGRADSOYAD" />
+          <ScalarProperty Name="OGRSINIF" ColumnName="OGRSINIF" />
+          <ScalarProperty Name="OGRTC" ColumnName="OGRTC" />
+          <ScalarProperty Name="OGRSIFRE" ColumnName="OGRSIFRE" />
+          <ScalarProperty Name="OGRFOTO" ColumnName="OGRFOTO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AyarlarOgretmenler" FunctionName="dbo.okulotoModel.Store.AyarlarOgretmenler">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dbo.okulotoModel.AyarlarOgretmenler_Result">
+          <ScalarProperty Name="AYARLARID" ColumnName="AYARLARID" />
+          <ScalarProperty Name="OGRTADSOYAD" ColumnName="OGRTADSOYAD" />
+          <ScalarProperty Name="OGRTBRANS" ColumnName="OGRTBRANS" />
+          <ScalarProperty Name="OGRTTC" ColumnName="OGRTTC" />
+          <ScalarProperty Name="OGRTSIFRE" ColumnName="OGRTSIFRE" />
+          <ScalarProperty Name="OGRTFOTO" ColumnName="OGRTFOTO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

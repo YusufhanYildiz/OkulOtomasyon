@@ -24,6 +24,7 @@ namespace DXApplication1
         FrmOgretmenler frm1;
         FrmOgrenciler frm2;
         FrmVeliler frm3;
+        FrmAyarlar frm4;
         private void btnogretmen_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             if (frm1 == null || frm1.IsDisposed)
@@ -51,6 +52,16 @@ namespace DXApplication1
                 frm3 = new FrmVeliler();
                 frm3.MdiParent = this;
                 frm3.Show();
+            }
+        }
+
+        private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm4 == null || frm4.IsDisposed)
+            {
+                frm4 = new FrmAyarlar();
+                frm4.MdiParent = this;
+                frm4.Show();
             }
         }
     }

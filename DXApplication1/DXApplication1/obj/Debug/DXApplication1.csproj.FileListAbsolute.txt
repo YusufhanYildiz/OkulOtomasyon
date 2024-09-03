@@ -122,3 +122,6 @@ C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\b
 C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.csproj.SuggestedBindingRedirects.cache
 C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.exe.config
 C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.FrmVeliler.resources
+C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.FrmAyarlar.resources
+C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.FrmGiris.resources
+C:\Users\Yusufhan\Documents\GitHub\OkulOtomasyon\DXApplication1\DXApplication1\obj\Debug\DXApplication1.FrmOgretmenAnaModul.resources

@@ -12,6 +12,9 @@ namespace DXApplication1
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Objects;
+    using System.Data.Objects.DataClasses;
+    using System.Linq;
     
     public partial class DbOkulEntities : DbContext
     {
@@ -32,5 +35,17 @@ namespace DXApplication1
         public DbSet<TBL_OGRENCILER> TBL_OGRENCILER { get; set; }
         public DbSet<TBL_OGRETMENLER> TBL_OGRETMENLER { get; set; }
         public DbSet<TBL_VELILER> TBL_VELILER { get; set; }
+        public DbSet<TBL_AYARLAR> TBL_AYARLAR { get; set; }
+        public DbSet<TBL_OGRAYARLAR> TBL_OGRAYARLAR { get; set; }
+    
+        public virtual ObjectResult<AyarlarOgrenciler_Result> AyarlarOgrenciler()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<AyarlarOgrenciler_Result>("AyarlarOgrenciler");
+        }
+    
+        public virtual ObjectResult<AyarlarOgretmenler_Result> AyarlarOgretmenler()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<AyarlarOgretmenler_Result>("AyarlarOgretmenler");
+        }
     }
 }

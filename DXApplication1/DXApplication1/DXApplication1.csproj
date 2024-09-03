@@ -62,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AyarlarOgrenciler_Result.cs">
+      <DependentUpon>OkulModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AyarlarOgretmenler_Result.cs">
+      <DependentUpon>OkulModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="FrmAnaModul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,12 @@
     <Compile Include="FrmAyarlar.Designer.cs">
       <DependentUpon>FrmAyarlar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmNufusCuzdani.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,12 @@
     </Compile>
     <Compile Include="FrmOgrenciler.Designer.cs">
       <DependentUpon>FrmOgrenciler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOgretmenAnaModul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOgretmenAnaModul.Designer.cs">
+      <DependentUpon>FrmOgretmenAnaModul.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmOgretmenler.cs">
       <SubType>Form</SubType>
@@ -119,6 +137,9 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>OkulModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="TBL_AYARLAR.cs">
+      <DependentUpon>OkulModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="TBL_BRANSLAR.cs">
       <DependentUpon>OkulModel.tt</DependentUpon>
     </Compile>
@@ -126,6 +147,9 @@
       <DependentUpon>OkulModel.tt</DependentUpon>
     </Compile>
     <Compile Include="TBL_ILLER.cs">
+      <DependentUpon>OkulModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TBL_OGRAYARLAR.cs">
       <DependentUpon>OkulModel.tt</DependentUpon>
     </Compile>
     <Compile Include="TBL_OGRENCILER.cs">
@@ -143,11 +167,17 @@
     <EmbeddedResource Include="FrmAyarlar.resx">
       <DependentUpon>FrmAyarlar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmNufusCuzdani.resx">
       <DependentUpon>FrmNufusCuzdani.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgrenciler.resx">
       <DependentUpon>FrmOgrenciler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOgretmenAnaModul.resx">
+      <DependentUpon>FrmOgretmenAnaModul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgretmenler.resx">
       <DependentUpon>FrmOgretmenler.cs</DependentUpon>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmogretmenanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmogretmenanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmveliler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmveliler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|c:\\users\\yusufhan\\documents\\github\\okulotomasyon\\dxapplication1\\dxapplication1\\frmanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C68B5B6-C95B-42A6-9D67-34A9C5135534}|DXApplication1\\DXApplication1.csproj|solutionrelative:dxapplication1\\frmanamodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 339,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmAyarlar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAyarlar.cs",
-              "RelativeDocumentMoniker": "DXApplication1\\FrmAyarlar.cs",
-              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAyarlar.cs [Design]",
-              "RelativeToolTip": "DXApplication1\\FrmAyarlar.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "FrmAnaModul.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAnaModul.cs",
+              "RelativeDocumentMoniker": "DXApplication1\\FrmAnaModul.cs",
+              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmAnaModul.cs [Design]",
+              "RelativeToolTip": "DXApplication1\\FrmAnaModul.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T14:13:11.758Z",
+              "WhenOpened": "2024-09-03T15:21:38.295Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmVeliler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmVeliler.cs",
-              "RelativeDocumentMoniker": "DXApplication1\\FrmVeliler.cs",
-              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmVeliler.cs [Design]",
-              "RelativeToolTip": "DXApplication1\\FrmVeliler.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FrmOgretmenAnaModul.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmOgretmenAnaModul.cs",
+              "RelativeDocumentMoniker": "DXApplication1\\FrmOgretmenAnaModul.cs",
+              "ToolTip": "C:\\Users\\Yusufhan\\Documents\\GitHub\\OkulOtomasyon\\DXApplication1\\DXApplication1\\FrmOgretmenAnaModul.cs [Design]",
+              "RelativeToolTip": "DXApplication1\\FrmOgretmenAnaModul.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T17:10:56.852Z",
+              "WhenOpened": "2024-09-03T15:21:27.141Z",
               "EditorCaption": " [Design]"
             }
           ]
